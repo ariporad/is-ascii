@@ -1,14 +1,14 @@
 {
   "name": "is-ascii",
-  "version": "1.0.0",
   "description": "Test if a string is 100% ascii",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariporad/is-ascii.git"
+    "url": "https://github.com/ariporad/is-ascii.git"
   },
   "keywords": [
     "ascii",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ariporad/is-ascii#readme",
   "devDependencies": {
-    "ava": "^0.9.1"
+    "ava": "^0.9.1",
+    "semantic-release": "^4.3.5"
   }
 }
