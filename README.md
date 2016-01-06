@@ -8,13 +8,13 @@ Test if a string is 100% ascii.
 
 ---
 
-# Why
+## Why
 
 I needed to see if a string was 100% ascii.
 
 ---
 
-# Usage
+## Usage
 
 ```javascript
 import isAscii from 'is-ascii';
@@ -25,6 +25,6 @@ isAscii('💩💩💩‽‽‽'); // false
 
 ---
 
-# License
+## License
 
 MIT: [http://ariporad.mit-license.org](http://ariporad.mit-license.org).
